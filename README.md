@@ -28,11 +28,9 @@ Installing and running the code requires some knowledge of using github, conda, 
 	```
 
 ## Using the Worm Counter GUI
-The Worm Counter GUI allows users to automate the counting of C. elegans on a 4 well plate. The algorithm will detect up to 4 assay plates in any configuration. To ensure that the algorithm provides accurate counts for your images, be sure to follow the instructuions in the [image capture workflow](https://docs.google.com/document/d/1WqvyStj1oJBW2A7Xqlo0mq0W0xOidGS7VAgk4tvFv_Y/edit?usp=sharing). Additionally, be sure to set up a metadata sheet so that you can link the data (compound, strain, plate ID, etc.) that is respective to both the plate and the image. Most importantly, be sure to note the plate ID and it's location on the scanner. See the example below:
+The Worm Counter GUI allows users to automate the counting of C. elegans on a 4 well plate. The algorithm will detect up to 4 assay plates in any configuration. To ensure that the algorithm provides accurate counts for your images, be sure to follow the instructuions in the [image capture workflow](https://docs.google.com/document/d/1WqvyStj1oJBW2A7Xqlo0mq0W0xOidGS7VAgk4tvFv_Y/edit?usp=sharing). Additionally, be sure to set up a metadata sheet so that you can link the test condition data (compound, strain, plate ID, etc.) to the correct images and assay wells. We suggest making a copy of our [Metadata template](https://docs.google.com/spreadsheets/d/1u8PN5a5s7SFurxspXNJSq5FKKNKTdzFmCgwjjsEf4XE/edit?usp=sharing) to ensure that you do not encounter any errors during image analysis. 
 
-| Date   | Plate ID     | Compound Well A | Compound Well B | Compound Well C | Compound Well D | Strain | Scanner Location |
-|------  |-------       |-----------------|-----------------|-----------------|-----------------|--------|------------------|
-|07/21/21|NPP_202108_003| Diacetyl        | DMSO            | 2-nonanone      | Empty           | N2     | 1                  
+**Important:** Be sure to generate a plate map to identify the locations of individual assay plates within an image. Additionally, you should create a labeling scheme for each well of an assay plate. Follow this link for examples: **Create this visual**
 
 
 #### Welcome Window: This is where you will choose to process a single image or a batch of images. 
